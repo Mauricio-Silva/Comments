@@ -33,3 +33,10 @@ Buil do projeto:
 - btn direito: Run on Server;,
 - no navegador: http://localhost:8080/biblioteca
  
+ 
+30/11/2021 
+
+DAO relaciona-se com o BD
+Bean relaciona-se com a camada de visualização
+Fazer DAO dos outros arquivos
+Para cada modelo: um Bean e um XHTML
