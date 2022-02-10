@@ -59,3 +59,6 @@ Lombok Annotations Support for VS Code
 Para CSS:
 Tailwind CSS IntelliSense
 
+Criar Projeto Maven
+F1 > Spring Initializ: Create Maven Project
+
