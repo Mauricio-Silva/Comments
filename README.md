@@ -40,3 +40,22 @@ DAO relaciona-se com o BD
 Bean relaciona-se com a camada de visualização
 Fazer DAO dos outros arquivos
 Para cada modelo: um Bean e um XHTML
+
+
+
+Frameworks-I - 09/02/2022
+Extensões
+Sprimg Boot Extension Pack
+Tunder Client
+Extension Pack for Java
+Spring Boot Snippets
+Prettier - Code Formatter (Prettier)
+Quokka.js
+Git History
+Auto Import
+Bracket Pair Colorizer 2
+Lombok Annotations Support for VS Code
+
+Para CSS:
+Tailwind CSS IntelliSense
+
