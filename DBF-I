@@ -17,6 +17,18 @@ Service: Realiza o Intermédio entre Controller e Repository (Regras de Negócio
 @Autowired: fornece instancia de classe automaticamente
 @GetMapping("/")
 @RestController
+@RequestMapping("/...")
+@Data - cria Getters e Setters automaticamente
+@AllArgsConstructor - cria um construtor completo automático com um parametro para cada atributo da classe
+@NoArgsConstructor - retira o construtor de default, gera um construtor sem parametros
+@Entity - transforma a classe em uma entidade/tabela
+@Id - simboliza que o atributo abaixo dele será o atributo identificador(ID) da tabela
+@GeneratedValue - gera valores para o atributo/campo
+@Column - define especifições para a coluna
+@NotBlank - Não Nulo
+@Repository -
+@Service -
+
 
 [!] Dependencias:
 Thymeleaf
