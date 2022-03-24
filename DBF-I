@@ -23,7 +23,7 @@ Service: Realiza o Intermédio entre Controller e Repository (Regras de Negócio
 @NoArgsConstructor - retira o construtor de default, gera um construtor sem parametros
 @Entity - transforma a classe em uma entidade/tabela
 @Id - simboliza que o atributo abaixo dele será o atributo identificador(ID) da tabela
-@GeneratedValue - gera valores para o atributo/campo
+@GeneratedValue - gera valores automaticamente para o atributo/campo
 @Column - define especifições para a coluna
 @NotBlank - Não Nulo
 @Repository -
@@ -48,4 +48,22 @@ List<User> users = new ArrayList<User>() -> var users = new ArrayList<User>()
 Ctrl + Shift + 0
 Organizar Importações: F1 > Organize Imports
 Adicionar Dependencias: F1 > Spring Initializr: Add Starters... > *selecione as dependencias* > Proceed(Janela) > Now(Janela)
+
+
+[!] Project:
+Model: modelos do sistema (tabelas do BD)
+Controller: classes que controlam os EndPoints, controla quais paginas são chamadas em função da url/requisição
+Repository(Interface): Classes responsáveis que comunicam com BD
+Service: classes que processam os dados do controller
+Templates: HTMLs
+
+
+[!] Dependências:
+Spring Boot DevTools: recarrega o servidor a cada mudança
+Lombok: Getters, Setters e Construtores
+Spring Web: para APIs Web (protocolos HTTP)
+H2 Database: BD em memória
+Spring Data JPA: para operações com o BD
+Thymeleaf: relacionamento e associação com templates html
+Validation: validação
   
