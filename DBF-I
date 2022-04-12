@@ -67,3 +67,31 @@ Spring Data JPA: para operações com o BD
 Thymeleaf: relacionamento e associação com templates html
 Validation: validação
   
+  
+  
+[!] Relacionamentos:
+
+# 1 - 1
+se há duas classes Professor e Turma, e cada professor tem uma turma, para relacionar 1 para 1:
+class Professor {
+  @OneToOne
+  Turma turma
+}
+Obs: @OneToOne deve ser anotado apenas em uma das classes/entidades
+nesse caso de relacionamento 1 para 1, a classe Turma agirá como atributo de Professor
+
+
+# 1 - n / n - 1
+se há duas classes Professor e Turma, e cada turma tem uma vários, para relacionar 1 para n:
+Professor (n) --- (1) Turma
+
+class Professor {
+  @ManyToOne
+  @JoinColumn(name = "turma_id")
+  Turma turma
+}
+
+class Class {
+  @OneToMany(mappedBy = "turma")
+  List<Professor> professores
+}
