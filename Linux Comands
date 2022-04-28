@@ -1,1 +1,34 @@
+Maven:
+$ sudo update
+$ sudo apt install maven
+$ mvn -version
+
+Java:
+$ sudo apt install default-jdk
+$ sudo apt install default-jre
+$ sudo apt install openjdk-17-jdk
+$ java -version
+$ javac -version
+$ sudo update-alternatives --config java
+$ sudo update-alternatives --config javac
+$ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-???/bin/java 3
+$ sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-???/bin/javac 3
+$ export JAVA_HOME=/usr/lib/jvm/jdk-???
+$ echo $JAVA_HOME
+$ export PATH=$PATH:$JAVA_HOME/bin
+$ echo $PATH
+
+Python:
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt install python3.9
+$ python3 --version
+$ python3.8 --version
+$ python3.9 --version
+$ sudo apt install python3-pip
+$ pip --version
+$ python3 -m pip install --upgrade pip
+$ export PATH=$PATH:$HOME/.local/bin
+$ echo $PATH
 
