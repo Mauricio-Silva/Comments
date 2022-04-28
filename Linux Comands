@@ -32,3 +32,6 @@ $ python3 -m pip install --upgrade pip
 $ export PATH=$PATH:$HOME/.local/bin
 $ echo $PATH
 
+Git:
+$ sudo apt install git-all
+$ git --version
