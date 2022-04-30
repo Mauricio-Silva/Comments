@@ -35,3 +35,19 @@ $ echo $PATH
 Git:
 $ sudo apt install git-all
 $ git --version
+
+Flutter:
+$ sudo snap install flutter --classic
+$ flutter sdk-path
+$ flutter doctor
+
+
+
+
+
+
+
+
+
+
+
